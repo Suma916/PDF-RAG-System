@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA
 from langchain_community.llms import Ollama
 
 # UI Title
-st.set_page_config(page_title="📄 PDF Q&A (Offline)")
+st.set_page_config(page_title=" PDF Q&A (Offline)")
 st.title("📄 Upload and Ask Questions from Your PDFs")
 
 # Choose Ollama Model
